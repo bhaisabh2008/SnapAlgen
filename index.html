@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapAlgen - AI Image & Video Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SnapAlgen</h1>
+        <p>Generate AI-powered Images & Videos for Free!</p>
+    </header>
+    
+    <main>
+        <section id="image-gen">
+            <h2>AI Image Generator</h2>
+            <input type="text" id="image-prompt" placeholder="Enter your prompt...">
+            <button onclick="generateImage()">Generate Image</button>
+            <img id="generated-image" src="" alt="">
+        </section>
+
+        <section id="video-gen">
+            <h2>AI Video Generator</h2>
+            <input type="text" id="video-prompt" placeholder="Enter your video prompt...">
+            <button onclick="generateVideo()">Generate Video</button>
+            <video id="generated-video" controls></video>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
